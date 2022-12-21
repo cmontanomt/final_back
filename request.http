@@ -1,0 +1,12 @@
+###
+GET http://localhost:9000/api/libros HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "lib_nombre":"Cien anos de soledad",
+    "lib_autor": "Gabriel Garcia Marquez",
+    "lib_editorial": "Panamericana"
+}
